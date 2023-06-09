@@ -3,3 +3,11 @@
 3. npm run dev
 4. npm run build =>genera el archivo para produccion, se crea solo x defecto el dist
 5. npm run preview =>genera una vista en otro puerto de como se veria en produccion
+
+PASOS PARA SUBIR A GITHUB PAGES
+1. Subir a github
+2. Despues de subir en github en SETTINGS ir a PAGES y en SOURCE seleccionar GITHUB ACTIONS
+3. seleccionar en guthub pages jekyll en configure
+4. Pegar la configuracion que da vite https://vitejs.dev/guide/static-deploy.html#github-pages y guardar los cambios, se pega en 
+5. En lo que pegaste cambiar el main por master
+6. en vite.config.js colocar el base 
